@@ -1,0 +1,74 @@
+.container{
+    background-image: url("bikebg.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center center ;
+    background-size: cover;
+    width: 100%;
+    -o-object-fit:cover;
+    object-fit:cover;
+    position:absolute;
+    
+    
+}
+/* .head{
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    right: 25%;
+    bottom: 35%;
+    color:rgb(255, 123, 47);
+    font-size: 1em;
+    font-weight: 900;
+    font-style: normal;
+    box-shadow: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;   
+    height: 72px;
+} */
+.container-1{
+    text-align: center;
+    color: rgb(255, 0, 144);
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    right: 25%;
+    bottom: 35%;
+    background-color: rgba(245, 245, 220, 0.9);
+    border: transparent;
+    font-size: 20px;
+    font-weight: 900;
+    height: 300px;
+    
+}
+
+input[type=text]{
+    padding: 7px;
+    margin-top: 10px;
+    
+}
+input[type=password]{
+    padding:7px ;
+}
+input[type=submit]{
+    padding: 10px 10px;
+    border-radius: 10px;
+    color: blueviolet;
+    background-color: azure;
+    font-weight: 900;
+    letter-spacing: 2px;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+}
+input[type=submit]:hover{
+    background-color: rgba(69, 42, 165, 0.689);
+    color: gold;
+}
+.head{
+    background-color: aliceblue;
+    color: black;
+    text-shadow: 100%;
+    font-size: 15px;
+    font-weight: 100;
+}
